@@ -1,8 +1,8 @@
 (function(module) {
 	"use strict";
 
-	var user = module.parent.require('./user'),
-		meta = module.parent.require('./meta'),
+	var user = module.parent.require('./src/user'),
+		meta = module.parent.require('./src/meta'),
 		db = module.parent.require('../src/database'),
 		passport = module.parent.require('passport'),
 		passportSAML = require('passport-saml').Strategy,
